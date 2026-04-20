@@ -1,0 +1,14 @@
+{
+  "name": "secretaria-personal-bot",
+  "version": "1.0.0",
+  "description": "Bot de Telegram - Secretaria Personal de Jaime",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "@anthropic-ai/sdk": "^0.20.0"
+  }
+}
